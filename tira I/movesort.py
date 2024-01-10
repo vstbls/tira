@@ -1,0 +1,1 @@
+check = lambda t: len([i for i in range((len(t)-1)//2) if t[i] + t[-(i+1)] != len(t)+1]) == 0
